@@ -2,7 +2,7 @@
 Credits to FreeCodeCamp.org. Code based on their tutorials.
 
 # Install  dependeces
-nmp install
+npm install
 
 # Lunch on development ennironment 
 docker compose up --build
