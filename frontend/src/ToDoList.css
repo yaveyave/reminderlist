@@ -1,0 +1,43 @@
+.ToDoList .back {
+  margin: 0 1em;
+  padding: 0.8em 1.2em; /* Ajusta el padding para una mejor proporción */
+  background-color: #f0f0f0; /* Color de fondo sutil */
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.ToDoList .back:hover {
+  background-color: #e0e0e0; /* Cambia el fondo al hacer hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
+
+.ToDoList .item {
+  border: 1px solid #e0e0e0; /* Bordes más claros */
+  padding: 1em;
+  margin: 1em 0; /* Ajusta el margen para mayor consistencia */
+  border-radius: 8px; /* Bordes redondeados */
+  display: flex;
+  align-items: center; /* Alineación vertical */
+  background-color: #fff; /* Fondo blanco limpio */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones para hover */
+  cursor: pointer;
+}
+
+.ToDoList .item:hover {
+  background-color: #f9f9f9; /* Color de fondo más claro en hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más profunda en hover */
+}
+
+.ToDoList .label {
+  margin-left: 1ex;
+  font-size: 1rem; /* Tamaño de fuente ajustado */
+  color: #333; /* Color del texto más oscuro */
+}
+
+.ToDoList .checked .label {
+  text-decoration: line-through;
+  color: #a0a0a0; /* Color gris más suave para los elementos completados */
+}

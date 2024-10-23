@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #f0f2f5; /* Color de fondo más suave */
+  min-height: 100vh; /* Asegura que cubra toda la ventana */
+}
+
+.App-logo {
+  height: 30vmin; /* Tamaño más pequeño para mejor escalado */
+  pointer-events: none;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2)); /* Agrega sombra suave al logo */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear; /* Rotación más rápida */
+  }
+}
+
+.App-header {
+  background-color: #20232a; /* Color de fondo más moderno */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Ajuste del tamaño de la fuente */
+  color: #61dafb; /* Azul vibrante más destacable */
+  padding: 2em; /* Más espacio interno */
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none; /* Quitar subrayado para un look más limpio */
+  font-weight: bold; /* Hacer el texto más prominente */
+  transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.App-link:hover {
+  color: #21a1f1; /* Color diferente al hacer hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

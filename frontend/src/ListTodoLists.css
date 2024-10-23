@@ -1,0 +1,26 @@
+.ListToDoLists .summary {
+  border: 1px solid #e0e0e0; /* Color de borde más claro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 1.2em; /* Más espacio interno */
+  margin: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between; /* Distribución del contenido */
+  align-items: center; /* Alineación vertical */
+  background-color: #f9f9f9; /* Fondo claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Animaciones para hover */
+}
+
+.ListToDoLists .summary:hover {
+  background-color: #f0f0f0; /* Cambio de color de fondo al pasar el mouse */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más fuerte en hover */
+}
+
+.ListToDoLists .count {
+  padding-left: 1ex;
+  color: #8a2be2; /* Azul violáceo */
+  font-size: 92%;
+  font-weight: bold; /* Letra en negrita */
+}
+
